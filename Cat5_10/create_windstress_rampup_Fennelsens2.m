@@ -5,8 +5,8 @@
 clc
 clear
 % set output file names
-uwndfn = 'ocean_frc_uwstress_Ftest.nc';
-vwndfn = 'ocean_frc_vwstress_Ftest.nc';
+uwndfn = 'ocean_frc_uwstress_10_Cat5.nc';
+vwndfn = 'ocean_frc_vwstress_10_Cat5.nc';
 % load grid informations
 load grid_info13.mat %8 km grid
 % set wind forcing time (Unit:day). time_start could be the start time of
