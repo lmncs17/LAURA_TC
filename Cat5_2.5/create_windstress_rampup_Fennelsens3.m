@@ -5,8 +5,8 @@
 clc
 clear
 % set output file names
-uwndfn = 'ocean_frc_uwstress_fennel_s3.nc';
-vwndfn = 'ocean_frc_vwstress_fennel_s3.nc';
+uwndfn = 'ocean_frc_uwstress_2_5_Cat5.nc';
+vwndfn = 'ocean_frc_vwstress_2_5_Cat5.nc';
 % load grid informations
 load grid_info13.mat %8 km grid
 % set wind forcing time (Unit:day). time_start could be the start time of
@@ -19,7 +19,7 @@ wind_time = time_start:time_interval:time_end;
 x_center0 = 3*1e6;
 y_center0 = 1.5*1e6;
 % set moving speed of hurricane center (Unit: km hour-1)
-center_s_x = -9; %5.5 m/s
+center_s_x = -9; %2.5 m/s
 center_s_y = 0;
 %
 % P_C is the pressure in hurricane center and R_Max is the radius of
